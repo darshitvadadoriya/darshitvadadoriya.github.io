@@ -1,0 +1,142 @@
+.sreenshot{
+    width: 100%;
+  }
+  .clean, .download{
+    cursor: pointer;
+  }
+  .brand{
+            width: 20%;
+            height: auto;
+            padding: 10px;
+        }
+        #imgItem{
+            /* background-size: cover; */
+            margin-left: auto;
+            margin-right: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url('entry-pass.jpg');
+        }
+        /* #imgItem::after {
+            content: ""; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(120deg, #181817, #0d0d0e);
+            opacity: .7;
+        } */
+        #output{
+            object-fit: cover;
+        }
+        .card{
+            height: 1085px;
+            width: 49rem;
+            /* width: 1600px;
+            height: 1920px; */
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+         
+        }
+        .card-title{
+            font-weight: bold;
+            font-size: 5rem;
+            color: aliceblue;
+            z-index: 1;
+        }
+        .card-subtitle{
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: aliceblue;
+        }
+        .card-footer{
+            height: 65px;
+            width: 101%;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            background-color: #ffffff;
+            color: #ECAD4B;
+          }
+       
+        #demo{
+          align-items: center;
+          
+        }
+       form{
+        margin-left: auto;
+        margin-right: auto;
+       }
+        .dragme {
+    position: relative;
+    width: 270px;
+    height: 203px;
+    cursor: move;
+    }
+    .card-body{
+        padding: 0;
+        
+    }
+    .card-header{
+        background-color: #ECAD4B;
+    }
+    button{
+        margin: 30px;
+        margin-left: 80px;
+    }
+       
+    textarea{
+        background-color: transparent;
+        border: none;
+    }
+     /* coloepicker for div background */
+     #btn-color-picker {
+    background: none;
+    border: #000 1px solid;
+    padding: 2px;
+    cursor: pointer;
+}
+/* draggable */
+#draggable 
+        {
+            top:74%;
+            margin-top:18px!important;
+            /* padding-left:45px!important; */
+            margin-left:30px!important;
+            width: 150px;
+            height: 64px;
+            padding: 0.5em;
+            background: transparent;
+            border: none;
+            color: #111;
+            font-weight: 700;
+            overflow: hidden;
+         }
+:focus-visible{
+    outline:none
+}
+
+p{
+    line-height: 32px;
+    text-align: left;
+    /* font-weight: bold; */
+}
+
+/* resize img hide */
+.ui-icon, .ui-widget-content .ui-icon{
+  background-image: none;
+}
+/* footer color button */
+#fcp{
+    width: 250px;
+}
+
+.icon{
+    width: 24px!important;
+    height: 24px!important;
+}
+.btn-success{
+    color:#fff;
+}
