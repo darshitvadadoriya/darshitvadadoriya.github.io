@@ -46,7 +46,7 @@ console.log( downloadIcon);
 
 // toDataURL defaults to png, so we need to request a jpeg, then convert for file download.
 downloadIcon.href = canvas.toDataURL("image/jpeg");
-downloadIcon.download = document.getelementById('counterDisplay')[0].innerText+"-"+document.getElementsByClassName('name')[0].innerText+'.jpg';
+downloadIcon.download = document.getElementById('counterDisplay')[0].innerText+"-"+document.getElementsByClassName('name')[0].innerText+'.jpg';
 });
 }
 
