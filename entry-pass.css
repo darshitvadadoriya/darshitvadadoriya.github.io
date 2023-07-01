@@ -101,7 +101,7 @@
 /* draggable */
 #draggable 
         {
-            top:54%;
+            top:57%;
             margin-top:15px!important;
             /* padding-left:45px!important; */
             margin-left:7px!important;
@@ -139,4 +139,8 @@ p{
 }
 .btn-success{
     color:#fff;
+}
+
+p{
+    line-height: 39px;
 }
